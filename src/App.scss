@@ -1,0 +1,31 @@
+$board-bg-color: #faedcd;
+$app-bar-bg-color: #fefae0;
+
+$_10: 10px;
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  font-size: 16px;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 50px 1fr;
+  background-color: $app-bar-bg-color;
+  
+  .navbar {
+    padding-left: $_10;
+    display: flex;
+    align-items: center;
+
+    &.app {
+      background-color: $board-bg-color;
+    }
+    &.board {
+      background-color: $app-bar-bg-color;
+    }
+  }
+}
