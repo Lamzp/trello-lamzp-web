@@ -1,0 +1,24 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Questrial&display=swap');
+
+:root {
+    --board-bg-color: #faedcd;
+    --app-bar-bg-color: #fefae0;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    text-rendering: optimizeSpeed;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+}
